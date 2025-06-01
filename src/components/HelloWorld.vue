@@ -2,7 +2,7 @@
   <!-- Header Section -->
   <header>
     <!-- Navbar -->
-    <nav class="bg-white shadow-xs">
+    <nav class="bg-white shadow-xs cursor-pointer">
       <div class="container mx-auto flex justify-between items-center py-4 font-roboto">
 
         <!-- logo -->
@@ -63,7 +63,52 @@
         <img class="w-full object-contain max-w-[390px]" src="../assets/img/image2.png" alt="">
       </div>
     </div>
+    <!-- Hero Section End -->
   </header>
+  <!-- Header Section End -->
+
+  <!-- Main Section -->
+  <main>
+    <!-- Service Section -->
+    <div class=" bg-[#DD3142]">
+      <div class="container flex justify-between">
+        <div class="text-center text-white flex flex-col items-center justify-center py-12 gap-2 font-Roboto">
+          <img src="../assets/img/icona.png" alt="">
+          <h2 class="font-medium text-sm">Residental Service</h2>
+          <p class="text-xs font-normal">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.
+            Lorem <br>
+            Ipsum has been the industry.
+          </p>
+          <a href="#" class="bg-white text-black py-1.5 px-4 rounded-md text-base"><u>Learn More</u></a>
+        </div>
+
+        <hr class="border-[1px] border-[#e6e6eb80] h-56 my-8">
+
+        <div class="text-center text-white flex flex-col items-center justify-center py-12 gap-2 font-Roboto">
+          <img src="../assets/img/iconb.png" alt="">
+          <h2 class="font-medium text-sm">Commercial Service</h2>
+          <p class="text-xs font-normal">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.
+            Lorem <br>
+            Ipsum has been the industry.
+          </p>
+          <a href="#" class="bg-white text-black py-1.5 px-4 rounded-md text-base"><u>Learn More</u></a>
+        </div>
+
+        <hr class="border-[1px] border-[#e6e6eb80] h-56 my-8">
+
+        <div class="text-center text-white flex flex-col items-center justify-center py-12 gap-2 font-Roboto">
+          <img src="../assets/img/iconc.png" alt="">
+          <h2 class="font-medium text-sm">Maintenance</h2>
+          <p class="text-xs font-normal">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.
+            Lorem <br>
+            Ipsum has been the industry.
+          </p>
+          <a href="#" class="bg-white text-black py-1.5 px-4 rounded-md text-base"><u>Learn More</u></a>
+        </div>
+      </div>
+    </div>
+  </main>
+
 
 
 
