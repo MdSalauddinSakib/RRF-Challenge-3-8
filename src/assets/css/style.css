@@ -4,24 +4,37 @@
 @theme {
     --font-Bricolage: "Bricolage Grotesque", sans-serif;
     --font-Roboto: "Roboto", sans-serif;
-    --primary-color: #DD3142;
+} 
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
 }
 
 @layer utilities{
-    .nav{
-        @apply relative tracking-[1px] hover:font-bold
+    .nav {
+        position: relative;
+        letter-spacing: 1px;
+        transition: font-weight 0.3s;
     }
 
-    .nav::after{
-        @apply content-[''] bg-[#DD3142] h-[2px] w-[0%] absolute left-0 -bottom-[5px] duration-300
+    .nav:hover {
+        font-weight: bold;
     }
 
-    .nav:hover::after{
-        @apply w-[100%] font-bold
+    .nav::after {
+        content: '';
+        background-color: #DD3142;
+        height: 2px;
+        width: 0%;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        transition: width 0.3s;
+        display: block;
     }
-}
 
-.container{
-    margin: 0 auto;
-    max-width: 1280px;
+    .nav:hover::after {
+        width: 100%;
+    }
 }
