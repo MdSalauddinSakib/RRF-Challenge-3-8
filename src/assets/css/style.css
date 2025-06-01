@@ -1,1 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
+
+@theme {
+    --font-Bricolage: "Bricolage Grotesque", sans-serif;
+    --font-Roboto: "Roboto", sans-serif;
+}
+
+@utility container{
+    margin: 0 auto;
+    max-width: 1280px;
+}
